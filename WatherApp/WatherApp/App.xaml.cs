@@ -10,7 +10,7 @@ namespace WatherApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Views.CurrentWeatherPage();
         }
 
         protected override void OnStart()
